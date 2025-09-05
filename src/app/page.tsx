@@ -8,11 +8,11 @@ export default function Home() {
         {/* Left side: Text content */}
         <div className="flex flex-col items-center text-center gap-6 md:items-start md:text-left flex-1">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-gray-900 animate-fade-in-up">
-            our AI Chat Companion
+            Your AI Chat Companion
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-lg animate-fade-in-up delay-100">
-            Instantly get answers, spark creativity, and simplify our tasks with
-            our intelligent chatbot, designed to be our perfect partner.
+            Instantly get answers, spark creativity, and simplify your tasks
+            with our intelligent chatbot, designed to be your perfect partner.
           </p>
           <a
             href="#"
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="relative mt-auto animate-fade-in-up delay-[1500ms]">
             <input
               type="text"
-              placeholder="Type our message..."
+              placeholder="Type your message..."
               className="w-full pl-4 pr-12 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500"
               readOnly
             />
